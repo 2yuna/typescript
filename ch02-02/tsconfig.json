@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    /* Basic Options */
+    "target": "es5",                          
+    "module": "commonjs",                     
+    "outDir": "dist",                         
+    "downlevelIteration": true,               
+
+    /* Strict Type-Checking Options */
+    "strict": true,                           
+    "noImplicitAny": false,                   
+
+    /* Module Resolution Options */
+    "moduleResolution": "node",               
+    "baseUrl": ".",                           
+    "paths": { "*": ["node_modules/*"] },     
+    "esModuleInterop": true,                  
+
+    /* Source Map Options */
+    "inlineSourceMap": true,                  
+
+    /* Advanced Options */
+    "skipLibCheck": true,                           
+    "forceConsistentCasingInFileNames": true        
+  },
+  "include": ["src/**/*"],
+}
